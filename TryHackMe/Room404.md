@@ -1,4 +1,4 @@
-hello there! today im walking you through Room404.
+hello there! today im walking through Room404.
 
 firstly (as always), i use nmap to do basic recon:
 <img width="1367" height="756" alt="image" src="https://github.com/user-attachments/assets/9b2ae4bd-08c9-4998-bdf2-40c5a90d76cf" />
