@@ -5,10 +5,10 @@ firstly (as always), i use nmap to do basic recon:
 
 ssh and http ports are open. and would you have a look! there's apparently a git repository!
 
-the natural next step is to attempt to curl said repository:
+the natural next step is to attempt to curl said repository to see if its vulnerable:
 <img width="1888" height="373" alt="image" src="https://github.com/user-attachments/assets/efff9a9e-cbda-47cf-bcee-16f984a59490" />
 
-looks like its vulnerable.
+looks like it is!
 
 i used the first tool that i met when i searched "git repo dumper" and i found <a href="https://github.com/arthaud/git-dumper">this.</a>
 
