@@ -41,7 +41,7 @@ BUT: if the file is too tall for your terminal, more stops after the first scree
 "so, what now?"
 now we enter vim by simply pressing v and enter vim's command-line mode using :
 
-we can set and enter bash shell through said command mode (keep in mind you will not get an output on the first command)
+we can set and enter bash shell through said command-line mode (keep in mind you will not get an output on the first command)
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/b478fbc3-82ff-4845-9e66-9db54612fa24" />
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/d61ceb7d-3324-425c-9cda-65c56b904683" />
 we're FINALLY in. now it's just a matter of accessing the passwords in /etc/bandit_pass/bandit26 AND /etc/bandit_pass/bandit27
