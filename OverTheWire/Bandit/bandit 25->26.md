@@ -18,6 +18,7 @@ lets see what it contains
 <img width="1871" height="182" alt="image" src="https://github.com/user-attachments/assets/8fbc7af1-9bc8-4200-9e75-98856cad5d6b" />
 so its a bash script that calls a file called text.txt and exits the shell.
 keep in mind how the file is accessed in the script: using more.
+
 alright. so, what now?
 now, im not going to act like i knew how to solve this by myself. i legit had no idea. so i searched it up, and apparently the person i found also searched it up and found it from someone else.
 so, bear with me: this is going to get weird.
@@ -30,9 +31,12 @@ yyyup. we need to minimize the terminal and make it as small as possible.
 "but that won't change anything!"
 <img width="1461" height="175" alt="image" src="https://github.com/user-attachments/assets/0c0085b6-52ff-4c1f-9785-c8d0a6efdf7d" />
 see how we didn't get kicked out? that's a step in the right direction.
+
 you might ask how that works? whats different?
+
 more loads the entire file in one page. if you look back at the script in showtext.sh, you'll notice that after the more commands is done, the script exits the shell.
 so, if we dont give the terminal space to load the entire page, it "hangs" per se, meaning the exit command is not run.
+
 "so, what now?"
 now we enter vim by simply pressing v.
 vim has a command mode which you basically already spawn in when you boot it up.
